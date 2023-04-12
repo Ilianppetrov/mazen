@@ -25,10 +25,12 @@ function LocationMap() {
 
   return (
     <section ref={sectionRef}>
-      <h2 className="mb-[50px] mt-[70px] text-center text-6xl text-[#FCFCFC]">
+      <h2 className=" mt-[60px] text-center text-5xl text-[#FCFCFC] drop-shadow-large">
         Our hosting locations
       </h2>
-      <div className=" h-[637px] w-[1202px]">{showMap && <SvgMap />}</div>
+      <div className="h-[637px] w-full max-w-[961px]">
+        {showMap && <SvgMap />}
+      </div>
     </section>
   );
 }

@@ -18,11 +18,12 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="bg-red relative z-10 flex flex-col items-center justify-center overflow-hidden bg-primary-bg">
+        {/* <div className="absolute  top-[-300px] h-full max-h-[870px] w-full bg-spot bg-cover" /> */}
         <svg
           viewBox="0 0 1543 870"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className="absolute  top-[-300px] h-[870px] w-[1543px]"
+          className="absolute  top-[-420px] h-[870px] w-[1543px]"
         >
           <path
             fill-rule="evenodd"

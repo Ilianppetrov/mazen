@@ -4,7 +4,7 @@ import { Outfit } from "next/font/google";
 import "@/styles/globals.css";
 import Navbar from "@/components/Navbar";
 
-const outfit = Outfit({ subsets: ["latin"] });
+const outfit = Outfit({ subsets: ["latin"], weight: "500" });
 
 const MyApp: AppType = ({ Component, pageProps }) => {
   return (

@@ -3,24 +3,25 @@ import Maze from "@/components/svgs/Maze";
 
 function Guard() {
   return (
-    <section className="relative mb-[70px] w-full max-w-[1600px] bg-secondary-bg">
-      <div className="z-2 relative mx-auto mb-[92px] mt-[82px] flex max-w-[670px] flex-col gap-2">
-        <h1 className="text-center text-6xl text-[#FCFCFC]">
+    <section className="relative mb-[60px] w-full  bg-secondary-bg ">
+      <div className="z-2 relative mx-auto mb-[40px] mt-[20px] flex max-w-[620px] flex-col gap-2">
+        <h1 className="text-center text-5xl text-[#FCFCFC] drop-shadow-large">
           Meet the Maze Guard
         </h1>
-        <h3 className="px-16 text-center text-3xl text-[#C1C1C1]">
+        <h3 className="px-8 text-center text-2xl text-[#C1C1C1]">
           Our industry leading DDoS defense system.
         </h3>
       </div>
-      <div className="relative top-[42px] m-auto max-w-7xl">
-        <div className="relative flex h-[250px] w-full flex-col items-center justify-end rounded-[5px] bg-gradient-to-r from-[#53C2C2] to-[#00945F]">
-          <p className="text-[42px] font-bold leading-[53px] text-[#00222E]">
+      <div className="relative top-[36px] m-auto max-w-6xl">
+        <div className="relative flex  w-full flex-col items-center justify-end overflow-hidden rounded-[5px] bg-[#00959A] pt-[32px]">
+          <p className="text-[34px] font-bold leading-[42px] text-[#00222E]">
             Maze Guard is included with every hosting plan.
           </p>
-          <p className="text-[30px] leading-[37px] text-[#FCFCFC]">
-            Maze Guard is included with every hosting plan.
+          <p className=" max-w-[70%] text-center text-2xl text-[#FCFCFC]">
+            Sit back, relax and let the guard take care of every security issue
+            around your server.
           </p>
-          <Button>Learn more</Button>
+          <Button className="mb-[16px]">Learn more</Button>
           <div className="absolute right-0">
             <Maze />
           </div>
